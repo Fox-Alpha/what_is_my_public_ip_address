@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b45ndueo1h428"]
+
+[ext_resource type="Script" uid="uid://onixewef5n55" path="res://label_public_ip.gd" id="1_ev6fu"]
+
+[node name="Label_PublicIP" type="Label" unique_id=1083911396]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_ev6fu")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="." unique_id=1092525603]
